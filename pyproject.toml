@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "transcriptionservice"
+version = "0.1.0"
+description = ""
+authors = ["Richard <kogunyale01@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.0"
+uvicorn = "^0.29.0"
+python-multipart = "^0.0.9"
+openai-whisper = '*'
+torch = "^2.2.1"
+loguru = "^0.7.2"
+tqdm = "^4.66.2"
+numpy = "^1.26.4"
+tiktoken = "^0.6.0"
+numba = "^0.59.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
